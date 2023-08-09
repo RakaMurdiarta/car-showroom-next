@@ -34,7 +34,7 @@ const [isOpen, setIsOpen] = useState<boolean>(false)
           src={generateCarImageUrl(car)}
           alt="car model"
           fill
-          priority
+          loading="eager"
           className="object-contain"
         />
       </div>

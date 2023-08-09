@@ -13,7 +13,6 @@ interface CarDetailsProps {
   car: CarsProps;
 }
 const CarDetails: FC<CarDetailsProps> = ({ car, closeModal, isOpen }) => {
-  console.log(generateCarImageUrl(car,"33"))
   return (
     <>
       <Transition appear show={isOpen} as={Fragment}>

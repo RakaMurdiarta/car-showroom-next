@@ -6,4 +6,6 @@ import SearchBar from "./SearchBar";
 import SearchManufacturer from "./SearchManufacturer";
 import CarCard from "./CarCard";
 import CarDetails from "./CarDetails";
-export { Hero, Navbar, Footer , CustomFilter , SearchBar, SearchManufacturer, CarCard };
+import ShowMore from "./ShowMore";
+
+export { Hero,ShowMore, Navbar, Footer , CustomFilter , SearchBar, SearchManufacturer, CarCard };
